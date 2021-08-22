@@ -1,3 +1,3 @@
 # My personal Blog
 
-here is my first try making a website using reactJS 
+here is my first try making a web app using reactJS 
