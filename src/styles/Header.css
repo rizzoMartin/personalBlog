@@ -1,0 +1,26 @@
+.canvas {
+    position: relative;
+}
+
+.Menu {
+    float: right;
+}
+
+h1, .Menu{
+    position: inherit;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.Menu-item {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgba(163, 163, 163, 1);
+    font-size: 18px;
+}
