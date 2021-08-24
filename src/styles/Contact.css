@@ -1,0 +1,17 @@
+.initial-text {
+    text-align: center;
+    margin-top:6%
+}
+
+.card {
+    float: left;
+    width: 15%;
+    margin-left: 14%;
+    margin-top: 3%;
+    font-size: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    text-align: center;
+    height: 300px;
+}

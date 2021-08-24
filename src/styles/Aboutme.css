@@ -1,0 +1,56 @@
+.column {
+    animation-duration: 3s;
+    animation-name: slidein2;
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+.column:first-child {
+    animation-duration: 3s;
+    animation-name: slidein1;
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+@keyframes slidein1 {
+    from {
+        margin-top: 0%;
+        width: 25%
+    }
+
+    to {
+        margin-top: 8%;
+        width: 25%;
+    }
+}
+
+@keyframes slidein2 {
+    from {
+        margin-top: 16%;
+        width: 25%
+    }
+
+    to {
+        margin-top: 8%;
+        width: 25%;
+    }
+}

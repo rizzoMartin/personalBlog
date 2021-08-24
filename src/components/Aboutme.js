@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/App.css'
+import '../styles/Aboutme.css'
 
 export default class Aboutme extends Component {
     render() {
