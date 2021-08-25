@@ -24,3 +24,8 @@ h1 {
     color: rgba(163, 163, 163, 1);
     font-size: 18px;
 }
+
+.Menu-item:hover {
+    transition: 0.7s;
+    color: black;
+}
